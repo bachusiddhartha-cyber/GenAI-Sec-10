@@ -17,7 +17,7 @@ client = genai.Client(api_key=api_key)
 # Step 4: Send prompt to Gemini
 response = client.models.generate_content(
    model="gemini-3.5-flash-lite",
-    contents="What's your   name"
+    contents="What's your name"
 )
 
 # Step 5: Display response
